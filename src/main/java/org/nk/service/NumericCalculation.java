@@ -48,7 +48,6 @@ public class NumericCalculation {
             if (count > maxSequenceLength) {
                 maxSequenceLength = count;
                 increasingNumSequence = new ArrayList<>(potentionalSequence);
-                potentionalSequence.clear();
             }
             i = j;
         }
@@ -73,7 +72,6 @@ public class NumericCalculation {
             if (count > maxSequenceLength) {
                 maxSequenceLength = count;
                 decreasingNumSequence = new ArrayList<>(potentionalSequence);
-                potentionalSequence.clear();
             }
             i = j;
         }
